@@ -4,6 +4,11 @@
 
 This is the implementation of the method proposed in "A Document Presentation Attack Detection Scheme with Optical Flow under a Flashlight" with pytorch(1.12.1, gpu version). The associated datasets are available upon request.
 
+## Introduction
+
+In this work, we improve the generalization performance of the existing DPAD backbones by introducing a new data modality, the optical fow. First, through a comparative analysis of physical properties, the fundamental differences in light reflection characteristics between genuine and recaptured documents are revealed. Leveraging video temporal data and optical flow estimation algorithms, the significant 
+distinctions in their dynamic optical flow features are characterized. Second, a dual-stream network architecture is designed, incorporating a cross-modal focal loss for dynamic weight allocation, which effectively fuses optical flow features with low-level features.
+
 ## Environment Request
 
 python == 3.9.12   
@@ -18,4 +23,4 @@ tqdm == 4.65.0
 
 ## Citation
 
-If you use our code please cite: Changsheng Chen, Wenyu Chen, Ximin Chen, and Haodong Li, A Document Presentation Attack Detection Scheme with Optical Flow under a Flashlight, in _Apsipa ASC_, 2024
+If you use our code please cite: Changsheng Chen, Wenyu Chen, Ximin Chen, and Haodong Li, A Document Presentation Attack Detection Scheme with Optical Flow under a Flashlight, in _Apsipa ASC_, 2024.
