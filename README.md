@@ -7,7 +7,7 @@ This is the implementation of the method proposed in "A Document Presentation At
 ## Introduction
 
 In this work, we improve the generalization performance of the existing DPAD backbones by introducing a new data modality, the optical fow. First, through a comparative analysis of physical properties, the fundamental differences in light reflection characteristics between genuine and recaptured documents are revealed. Leveraging video temporal data and optical flow estimation algorithms, the significant 
-distinctions in their dynamic optical flow features are characterized. Second, a dual-stream network architecture is designed, incorporating a cross-modal focal loss for dynamic weight allocation, which effectively fuses optical flow features with low-level features.
+distinctions in their dynamic optical flow features are characterized. Second, a dual-stream network architecture is designed, incorporating a cross-modal focal loss for dynamic weight allocation, which effectively fuses optical flow features with low-level features. Finally, we construct a student card video dataset under flashlight, containing over 18,000 frames of genuine documents and various types of recaptured data.
 
 ## Environment Request
 
