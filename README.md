@@ -24,6 +24,11 @@ torchnet == 0.0.4
 torchvision == 0.13.1  
 tqdm == 4.65.0  
 
+## Files Description
+
+```F-AutheNet.py```  
+Train\Valid\Test\Calculate AUC and EER metrics
+
 ## Citation
 
 If you use our code please cite: Changsheng Chen, Wenyu Chen, Ximin Chen, and Haodong Li, A Document Presentation Attack Detection Scheme with Optical Flow under a Flashlight, in _Apsipa ASC_, 2024.
