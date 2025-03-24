@@ -31,4 +31,14 @@ Train\Valid\Test\Calculate AUC and EER metrics
 
 ## Citation
 
-If you use our code please cite: Changsheng Chen, Wenyu Chen, Ximin Chen, and Haodong Li, A Document Presentation Attack Detection Scheme with Optical Flow under a Flashlight, in _Apsipa ASC_, 2024.
+If you use our code please cite: 
+
+```
+@inproceedings{chen2024document,
+  title={A document presentation attack detection scheme with optical flow under a flashlight},
+  author={Chen, Changsheng and Chen, Wenyu and Chen, Ximin and Li, Haodong},
+  booktitle={2024 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
+  pages={1--6},
+  year={2024}
+}
+```
